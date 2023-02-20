@@ -1,2 +1,2 @@
-# excobris-website
-First Project
+# Ossu-Website
+First Major Project
