@@ -29,7 +29,7 @@ app.use('/', indexRouter);
 
 // Database Here
 const storage = new Storage({
-  keyFilename: `${__dirname}/imgV.json`
+  keyFilename: `${__dirname}/bishop.json`
 });
 
 
