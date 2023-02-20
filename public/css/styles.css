@@ -1,0 +1,155 @@
+
+h1,
+h2 {
+    color: ghostwhite;
+    text-align: left;
+    padding: 5% 0% 0%;
+    margin: 0;
+}
+
+p {
+    color: ghostwhite;
+    padding: 0% 0% 1%;
+    text-align: left;
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.modal h1,
+.modal p {
+    color: black;
+}
+
+.modal ul {
+    margin: 0;
+}
+
+.modal li {
+    margin-bottom: 1rem;
+}
+
+
+.background-landingpad{
+    width: 100%;
+    min-height: 100vh;
+    background: url("../images/background1.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.center-column{
+    padding: 0 5% 3%;
+}
+
+.background-picturesOne{
+    background: url("../images/background2.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    display: -webkit-inline-flex;
+    display: -moz-inline-flex;
+    display: -o-inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.background-picturesTwo{
+    background: url("../images/background3.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -o-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.navbar {
+    box-shadow: 0 0.1rem 0.4rem 0 black;
+}
+
+.footer {
+    box-shadow: 0 -0.1rem 0.4rem 0 black;
+    z-index: 2;
+    position: relative;
+}
+
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.nav-item {
+    text-align: right;
+}
+
+
+.carousel-inner > .carousel-item > img {
+    aspect-ratio: 16/9;
+}
+
+#carouselFade1,
+#carouselFade2 {
+    box-shadow: 0.1rem 0.1rem 0.4rem 0.1rem black;
+}
+
+.form-control,
+.form-control:valid:focus {
+    appearance: none;
+    color: ghostwhite;
+    position: static;
+    background-color: #5A5A5A;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.picturesFilter {
+    width: 45%;
+    padding: 1rem 0;
+}
+
+
+.info-pages {
+    padding: 0% 5% 0%;
+    min-height: 100vh;
+}
+
+.logo-animation {
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+
+.logo {
+    width: 25%;
+    opacity: 0;
+    overflow: hidden;
+    animation: magicAssist 1s forwards;
+}
+
+@keyframes magicAssist {
+    100% {
+        opacity: 1;
+    }
+}
